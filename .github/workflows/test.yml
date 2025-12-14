@@ -11,4 +11,6 @@ jobs:
     - name: Check PR
       uses: JJ/github-pr-contains-action@releases/v14.1.1
       with:
-        bodyContains: 'Test'
+        bodyContains: 'a'
+
+    - run: echo ok bro idk
